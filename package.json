@@ -1,0 +1,30 @@
+{
+  "name": "terminal-progress",
+  "version": "1.0.1",
+  "license": "MIT",
+  "type": "module",
+  "main": "./lib/index.umd.cjs",
+  "module": "./lib/index.js",
+  "keywords": [
+    "terminal",
+    "console",
+    "progress",
+    "cli",
+    "loading"
+  ],
+  "scripts": {
+    "build": "tsc && vite build",
+    "test": "node --nolazy --loader ts-node/esm -r ts-node/register test/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.3",
+    "typescript": "^5.5.2",
+    "vite": "^4.4.5",
+    "vite-plugin-dts": "^3.9.1"
+  },
+  "dependencies": {
+    "ora": "^8.0.1"
+  }
+}
