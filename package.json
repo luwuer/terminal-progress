@@ -1,6 +1,6 @@
 {
   "name": "terminal-progress",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "type": "module",
   "main": "./lib/index.umd.cjs",
@@ -26,5 +26,6 @@
   },
   "dependencies": {
     "ora": "^8.0.1"
-  }
+  },
+  "repository": "https://github.com/luwuer/terminal-progress"
 }
