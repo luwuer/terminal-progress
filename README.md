@@ -1,6 +1,6 @@
 ### Install
 ```bash
-pnpm i @luwuer/terminal-progress
+pnpm i terminal-progress
 ```
 
 ### Usage
