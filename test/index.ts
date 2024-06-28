@@ -1,4 +1,4 @@
-import { progress } from '../src/index.ts';
+import { progress } from '../lib/index.js';
 
 let num = 0,
   total = 200;

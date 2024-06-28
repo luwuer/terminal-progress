@@ -1,6 +1,5 @@
-import { defineConfig } from 'vite'
-import { resolve } from 'path'
-import dts from 'vite-plugin-dts'
+import { defineConfig } from 'vite';
+import dts from 'vite-plugin-dts';
 
 export default defineConfig({
   plugins: [dts()],
@@ -13,6 +12,14 @@ export default defineConfig({
       name: '[name]',
       fileName: '[name]',
     },
-    outDir: 'lib', // 打包后存放的目录文件
+    outDir: 'lib',
+    rollupOptions: {
+      external: ['ora'],
+      output: {
+        globals: {
+          ora: 'ora',
+        },
+      },
+    },
   },
-})
+});
