@@ -5,7 +5,7 @@ pnpm i terminal-progress
 
 ### Usage
 ```ts
-import { progress } from '../src/index.ts'
+import { progress } from 'terminal-progress'
 
 let num = 0,
   total = 200
