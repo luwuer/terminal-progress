@@ -1,9 +1,9 @@
 {
   "name": "terminal-progress",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "license": "MIT",
   "type": "module",
-  "main": "./lib/index.umd.cjs",
+  "main": "./lib/index.cjs",
   "module": "./lib/index.js",
   "files": [
     "lib"
