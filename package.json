@@ -1,15 +1,15 @@
 {
   "name": "terminal-progress",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "license": "MIT",
   "type": "module",
-  "main": "./lib/index.js",
+  "main": "./lib/index.umd.cjs",
   "module": "./lib/index.js",
   "files": [
     "lib"
   ],
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=18.0.0"
   },
   "keywords": [
     "terminal",

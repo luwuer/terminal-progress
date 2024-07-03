@@ -13,6 +13,7 @@ export default defineConfig({
       fileName: '[name]',
     },
     outDir: 'lib',
+    minify: false,
     rollupOptions: {
       external: ['ora'],
       output: {
